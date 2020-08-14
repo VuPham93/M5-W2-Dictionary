@@ -1,0 +1,4 @@
+<ul *ngFor="let word of words; index as i">
+  <li><a [routerLink]="['/dictionary/dictionary-page/', word.id]">{{word.eng}}</a></li>
+</ul>
+<router-outlet></router-outlet>

@@ -1,0 +1,8 @@
+
+
+<h1>Dictionary</h1>
+<input type="text" [(ngModel)]="input" (ngModelChange)="reset()">
+<button (click)="translate()">Translate</button>
+<h3>{{translatedWord}}</h3>
+<a routerLink="dictionary-page" class="link">All words</a>
+<router-outlet></router-outlet>

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "M5-W2-Dictionary"
+    }
+  },
+  "defaultProject": "M5-W2-Dictionary",
+  "cli": {
+    "analytics": false
+  }
 }
